@@ -4,7 +4,7 @@ public class Exercicio18 {
         double nota2 = Prompt.lerDecimal("Digite sua segunda nota: ");
         double nota3 = Prompt.lerDecimal("Digite sua terceira nota: ");
 
-        double media = (nota1 + nota2 + nota3)/ 3;
-        System.out.println("Média: " + media);
+        double mediaH = 3 / ((1/nota1) + (1/nota2) + (1/nota3));
+        System.out.println("Média Harmônica: " + mediaH);
     }
 }
